@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325, #8e5d52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-titulo {
+    font-family: "Righteous", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    font-family: "Sarala", sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: "Righteous", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-img {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact {
+    margin-top: 68px;
+}
+
+#contact .container {
+    display: block;
+    margin-top: 48px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contato {
+    font-family: "Righteous", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+h3 {
+    font-family: "Righteous", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+p {
+    color: #FFF2E7;
+    font-family: "Sarala", sans-serif;
+    font-size: 12px;
+}
+
+form button {
+    background: #ECD6C4;
+    color: #2F2325;
+    font-family: "Righteous", sans-serif;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 4px 5px 4px 0px #00000040;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+input, :focus, textarea {
+    outline-color: #8e5d52;
+}
+
+.rodape {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+.rodape, p {
+    color: #ecd6c4;
+    padding: 16px 0;
+    font-weight: 400;
+}

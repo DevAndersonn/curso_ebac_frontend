@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #b9b4ce;
+    margin-top: 100px;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 5px #888;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(5px 5px 10px #686666);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.formulario {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #46a9e3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.telefone {
+    display: flex;
+    gap: 10px;
+}
+
+.telefone input:first-child {
+    max-width: 80px;
+}
+
+#ddd {
+    flex: 1;
+}
+
+#telefone {
+    flex: 4;
+}
+
+input{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+input, :focus {
+    outline-color: #9ed5f8;
+}
+
+form button {
+    padding: 10px;
+    background-color: #6275f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    width: 150px;
+    align-self: center;
+}
+
+form button:hover {
+    background-image: linear-gradient(to bottom, #9ed5f8, #9ed5f8);    
+}
+
+p {
+    align-self: center;
+    background-color: #9ed5f8;
+    border-radius: 4px;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    background-color: #8b98ef;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    max-width: 850px;
+}
+
+table {
+    width: 100%;
+    max-width: 850px;
+    border-collapse: separate;
+    border-spacing: 8px 0;
+    background-color: #9ed5f8;
+    table-layout: fixed;
+}
+
+th {
+    padding: 12px;
+    color: #333131;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+td {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    color: #3f3b3b;
+    background-color: #b6def7;
+    border-radius: 4px;
+    word-break: break-word;
+    border-collapse: separate;
+    border-spacing: 8px 0;   
+}
+

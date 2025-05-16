@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="./img/agenda.png" alt="Caderno de agenda">
+            Agenda de contatos
+        </h1>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <form id="formulario">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" placeholder="Nome completo" required id="nome">
+
+                <label for="telefone"><strong>Telefone:</strong></label>
+                <div class="telefone">
+                    <input type="text" placeholder="DD" required id="ddd">
+                    <input type="tel" placeholder="99999-9999" required id="telefone">
+                </div>
+
+                <label for="email"><strong>E-Mail:</strong></label>
+                <input type="email" placeholder="E-mail" required id="email">
+
+                <button type="submit">cadastrar</button>
+                <p id="mensagem"></p>
+            </form>
+        </section>
+
+        <h2>Lista de contatos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome completo</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody id="lista-contatos">
+                
+            </tbody>
+        </table>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
